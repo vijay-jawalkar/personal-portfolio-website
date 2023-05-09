@@ -1,0 +1,462 @@
+/*Main haeder background*/
+
+#main-header {
+	height: 65vh;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.8;
+	background-position: center;
+
+}
+
+.theme-changer {
+	position: relative;
+	right: 15%;
+	
+	
+}
+
+.theme-changer button {
+	width: 60px;
+	height: 20px;
+}
+
+#light {
+	font-weight:600;
+	
+}
+
+#dark {
+	font-weight:600;
+	
+}
+
+
+
+
+/*horizontal list style*/
+
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	
+	
+}
+
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+
+
+
+
+}
+
+
+/*main-header ul list alignment*/
+
+#main-header ul {
+	font-size: 20px;
+	color: white;
+   text-align: center;
+	
+}
+
+
+
+/*icon horizontal list align in center*/
+
+#icon-horizontal {
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+}
+
+
+
+.horizontal-list li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.nav-menu {
+	transition: color 0.5s, border-bottom 5s;
+
+}
+
+.text-center {
+   text-align: center;
+}
+
+.nav-menu li a:hover {
+	color: lightgray;
+	border-bottom: 2px solid white;
+	
+
+}
+
+#div-align {
+	margin-top: 20vh;
+
+
+}
+
+
+/*vijay jawalkar name style in main-header*/
+#my-name {
+	font-size: 3rem;
+	letter-spacing: 0.6px;
+	font-weight: 700 ;
+	color: white;
+	margin-bottom: 0.5px;
+	
+}
+
+
+.horizontal-list li a img{
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+
+
+/*set hover on icon images*/
+
+.horizontal-list li a img:hover {
+	box-shadow: 0px 0px 10px 6px orangered;
+}
+
+#about {
+	height: auto;
+	width: 100%;
+	
+
+}
+
+#div-image {
+	height:12rem;
+	width: 12rem;
+	margin: auto;
+	position: relative;
+	margin-top: -90;
+	
+	
+
+}
+
+#div-image img {
+	height: 100%;
+	width: 100%;
+	
+	border-radius: 60%;
+	border:3px,solid,white;
+	box-shadow: 1px 1px 10px 2px lightgray;
+	
+}
+
+#para-style {
+	color: blue;
+	font-size: 20px;
+	font-weight: 20px;
+	background-color: white;
+}
+
+.heading-style {
+	font-size: 30px;
+	color: blue;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.skill-background {
+	width: 100%;
+	height: 40vh;
+	background-color: whitesmoke;
+    display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.skill-background div {
+	height:1.4rem;
+	width:9rem ;
+	font-size: 18px;
+	color: white;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 1rem;
+	background-color: lightgray;
+	margin:4% 6% 4% 6%;
+
+}
+
+#java-percentage {
+	width: 80%;
+	height: inherit;
+	background-color: blue;
+	border-radius: 1rem;
+}
+
+#html-percentage {
+	width: 90%;
+	height: inherit;
+	background-color: orange;
+	border-radius: 1rem;
+}
+
+#css-percentage {
+	width: 60%;
+	height: inherit;
+	background-color: brown;
+	border-radius: 1rem;
+}
+
+#dbms-percentage {
+	width: 75%;
+	height: inherit;
+	background-color: green;
+	border-radius: 1rem;
+}
+
+#mysql-percentage {
+	width: 70%;
+	height: inherit;
+	background-color: blueviolet;
+	border-radius: 1rem;
+}
+
+/*contact section style*/
+
+#contact {
+    height: 70vh;
+    width:100%;
+    position: relative;
+    background: linear-gradient(to right, #2857a4,#403066);
+}
+
+
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#input-style {
+    width: 30rem;
+    font-size: 15px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    color: grey;
+}
+
+#input-submit {
+    margin-left: 300px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px;
+    width: 140px;
+    font-size: 16px;
+    
+   
+}
+form {
+    width: 100%;
+    float:left;
+}
+
+aside {
+ height:80px;
+ padding: 10px;
+ 
+ position: relative;
+ left: 260px;
+ bottom: 200px;
+}
+
+#h2 {
+    color: white;
+    text-align: center;
+}
+
+aside ul {
+	text-align: center;
+}
+
+
+
+
+aside ul li {
+	font-size: 17px;
+	color: lightgray;
+}
+
+
+/*set style for small size screen*/
+
+@media screen and (max-width: 600px){
+
+	#input-style{
+	 width: 13rem;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#input-submit {
+    margin-left: 90px;
+    margin-top: 15px;
+    width: 100px;
+    font-size: 12px;
+    
+   
+}
+
+aside ul li {
+	font-size: 13px;
+	color: lightgray;
+}
+}
+
+
+
+
+/*skill section style*/
+
+.timeline {
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    background-color: white;
+}
+
+.timeline-box {
+    position: relative;
+    min-height: 100px;
+    width:40%;
+    margin:  5px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: lightcyan;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.timeline-box:nth-child(2n) {
+   left: 50%;
+}
+
+.timeline-box h3 {
+    color: blue;
+    font-weight: 700;
+    font-size: 23px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+
+
+.timeline-box h4 {
+    color: red;
+    font-weight: 700;
+     font-size: 18px;
+     padding: 8px;
+     font-family: sans-serif;
+  }
+
+.timeline-box h5 {
+	padding-bottom: 8px;
+	padding: 8px;
+} 
+
+.timeline-devider {
+    position: absolute;
+    width = 0;
+    height: 70%;
+    border: 2px dashed #0096fa;
+    left: 50%;
+    top: 7%
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius:50%;
+    left: 111.9%;
+    top: 50%;
+    background-color: darkgrey;
+    z-index: 1;
+}
+
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius:50%;
+    left: -13.1%;
+    top: 50%;
+    background-color: darkgrey;
+    z-index: 1;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 10%;
+    width:0;
+    transform: rotate(90deg);
+    z-index: 2;
+
+}
+
+/*education section set style according to the screen size*/
+
+
+ @media screen and (max-width: 600px) {
+ 	.timeline-box  {
+ 		left:50%;
+ 	}
+
+.timeline-box:nth-child(2n+1)::after{
+	 left: -13.1%;
+}
+
+ }
+
+  #project-container {
+  	width: 100%;
+  	height: 50vh;
+  	background-color: whitesmoke;
+    display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+
+
+  }
+
+
+  .project-item {
+  	width: 15em;
+  	height: 15em;
+  	background-color: brown;
+  	background-size: auto;
+  }
